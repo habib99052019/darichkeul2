@@ -1,0 +1,545 @@
+.pricing-card .title-room-card,.pricing-card .name{
+
+	color: white;
+
+}
+
+
+.buttons{
+	position: absolute;
+    top: 4%;
+    left: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 24%;
+}
+
+.buttons .btn{
+
+	background: #caa16d;
+    width: 47%;
+    text-align: center;
+    padding: 3%;
+    font-size: 1.6vw;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 0;
+
+}
+
+.buttons .btn:hover{
+
+	background-color: #2f2e2e;
+
+}
+
+
+
+.form-reservation {
+
+	width: 100%;
+	height: 100%;
+	background-color: #0000006e;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	z-index: 580000;
+	justify-content: center;
+	transition: .6s;
+
+}
+
+.form-reservation .content{
+
+	width: 60%;
+	height: 90%;
+	background-color: white;
+	border-left: .3vw solid #caa16d;
+	position: relative;
+
+}
+
+.form-reservation .content .title-content{
+
+	padding: 5%;
+	font-size: 2vw;
+
+}
+
+.form-reservation .content .rooms-list{
+
+	width: 90%;
+	height: 76%;
+	margin-left: 4%;
+	overflow-y: auto;
+
+}
+
+.form-reservation .content .rooms-list .room-item{
+
+	display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    position: relative;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 52%;
+
+}
+
+.form-reservation .content .rooms-list .room-item img{
+
+	width: 36%;
+	height: 100%;
+
+}
+
+.form-reservation .content .rooms-list .room-item .check-btn{
+	background: transparent;
+	border: .2vw solid #e7c283;
+	color: transparent;
+    width: 5%;
+    text-align: center;
+    font-size: 1.6vw;
+    position: absolute;
+    top: 7%;
+    right: 2%;
+    padding: .3% 0;
+    cursor: pointer;
+}
+
+
+.form-reservation .content .rooms-list .room-item .details{
+
+	padding: 0 4%;
+
+}
+
+
+.form-reservation .content .rooms-list .room-item .details .room-name{
+
+	font-size: 2.5vw;
+    color: #c6a162;
+    padding: 1% 0;
+
+}
+
+.form-reservation .content .rooms-list .room-item .details .price span{
+
+	font-size: 2vw;
+    margin-top: 2%;
+
+}
+
+
+.form-reservation .content .rooms-list .room-item .details .price{
+
+	position: absolute;
+	top: 7%;
+	right: 9%;
+
+
+}
+
+.form-reservation .content .rooms-list .room-item .details .description{
+
+	font-size: 1vw !important;
+	display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 57px;
+
+}
+
+.form-reservation .content .rooms-list .room-item .details .description p{
+
+	font-size: 1vw !important;
+
+}
+
+.form-reservation .content .rooms-list .room-item .details .price-item{
+
+	font-size: 1.2vw;
+
+}
+
+
+.form-reservation .content .suiv-btn-form{
+
+	position: absolute;
+    right: 5%;
+    top: 3%;
+    background: #c6a162;
+    padding: 1% 5%;
+    color: white;
+    cursor: pointer;
+
+}
+
+.form-reservation .content .suiv-btn-form.rt{
+
+	left: 5%;
+	width: 15%;
+
+}
+
+
+.form-reserv{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-reserv .form{
+
+	width: 79%;
+	height: 60%;
+
+}
+
+.form-reserv .form .input-flex{
+
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 5%;
+
+}
+
+.form-reserv .form .input{
+
+	width: 100%;
+	font-size: 1.6vw;
+	margin-bottom: 5%;
+	position: relative;
+
+}
+
+.form-reserv .form .input .alert-text{
+
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: red;
+	font-size: 1.5vw;
+}
+
+
+
+.form-reserv .form .input input{
+
+	font-size: 1.4vw;
+	background-color: #f0f0f0;
+	border: none;
+	padding: 2%;
+
+}
+
+.form-reserv .form .input-flex .input{
+
+	width: 45%;
+	font-size: 1.6vw;
+	margin: 0;
+
+}
+
+.form-reserv .form .input-flex .input input{
+
+	font-size: 1.4vw;
+	padding: 4%;
+
+}
+
+.form-reserv .form .confirm-btn{
+
+	width: 100%;
+	padding: 2% 0;
+	background: #caa16d;
+    text-align: center;
+    font-size: 1.6vw;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 0;
+
+}
+
+.form-reserv .form .confirm-btn:hover{
+
+	background-color: #2f2e2e;
+
+}
+
+
+
+.form-reserv-mobile{
+
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 500000;
+	transition: .6s;
+
+}
+
+.form-reserv-mobile .content{
+
+	width: 98%;
+	height: 100%;
+
+}
+
+.form-reserv-mobile .content .return-btn{
+
+	margin: 7%;
+    position: absolute;
+    font-size: 33px;
+
+}
+
+.form-reserv-mobile .content .close-btn{
+
+    padding: 4% 5%;
+    background-color: #caa16d;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    right: 7%;
+    bottom: 3%;
+    border-radius: 100%;
+    font-size: 28px;
+    color: white;
+    transform: scale(.9);
+}
+
+.form-reserv-mobile .content .close-btn i{
+
+	pointer-events: none;
+
+}
+
+
+
+.form-reserv-mobile .title-mobile-reserv{
+
+	font-size: 18px;
+    padding: 6% 4%
+
+}
+
+
+.form-reserv-mobile .btn-mobile-reserv{
+
+	width: 30%;
+    padding: 2% 2%;
+    background-color: #c7a466;
+    color: white;
+    position: absolute;
+    z-index: 5;
+    right: 5%;
+    font-size: 18px;
+    top: 2%;
+
+}
+
+.form-reserv-mobile .content .rooms-list{
+
+	width: 92%;
+	height: 88%;
+	margin-left: 4%;
+	overflow-y: auto;
+
+}
+
+.form-reserv-mobile .content .rooms-list .room-item{
+
+	display: block;
+    background: #f1f1f1;
+    position: relative;
+    margin-bottom: 3%;
+    width: 100%;
+    padding-bottom: 10%;
+    overflow: hidden;
+
+}
+
+.form-reserv-mobile .content .rooms-list .room-item img{
+
+	width: 100%;
+
+}
+
+.form-reserv-mobile .content .rooms-list .room-item .check-btn{
+	
+	background: transparent;
+    border: 3px solid #ffffff;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    padding: 1% 2%;
+    cursor: pointer;
+    color: transparent;
+
+}
+
+
+.form-reserv-mobile .content .rooms-list .room-item .details{
+
+	padding: 0 4%;
+
+}
+
+
+.form-reserv-mobile .content .rooms-list .room-item .details .room-name{
+
+	font-size: 25px;
+    color: #c6a162;
+    padding: 8% 0;
+
+}
+
+.form-reserv-mobile .content .rooms-list .room-item .details .price span{
+
+	font-size: 31px;
+    margin-top: 2%;
+
+}
+
+
+.form-reserv-mobile .content .rooms-list .room-item .details .price{
+
+	position: absolute;
+	top: 65%;
+	right: 6%;
+	font-size: 18px;
+
+
+}
+
+.form-reserv-mobile .content .rooms-list .room-item .details .description{
+
+	display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 57px;
+
+}
+
+.form-reserv-mobile .content .rooms-list .room-item .details .price-item{
+
+	font-size: 19px;
+
+}
+
+.form-user-mobile{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-user-mobile .form{
+
+	width: 79%;
+	height: auto;
+
+}
+
+.form-user-mobile .form .input-flex{
+
+	width: 100%;
+	margin-bottom: 5%;
+
+}
+
+.form-user-mobile .form .input{
+
+	width: 100%;
+	font-size: 18px;
+	margin-bottom: 5%;
+	position: relative;
+
+}
+
+.form-user-mobile .form .input input{
+
+	font-size: 18px;
+	background-color: #f0f0f0;
+	border: none;
+	padding: 5% 7%;
+
+}
+
+.form-user-mobile .form .input-flex .input{
+
+	width: 100%;
+	font-size: 18px;
+	margin: 0;
+
+}
+
+.form-user-mobile .form .input-flex .input input{
+
+	font-size: 18px;
+	padding: 5% 7%;
+	margin-top: 3%;
+
+}
+
+.form-user-mobile .form .confirm-btn{
+
+    width: 100%;
+    padding: 5% 0;
+    background: #caa16d;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 0;
+
+}
+
+.form-user-mobile .form .confirm-btn:hover{
+
+	background-color: #2f2e2e;
+
+}
+
+
+.form-user-mobile .form .input .alert-text{
+	font-size: 15px;
+    position: absolute;
+    right: 0;
+    color: red;
+
+}
+
+
+
